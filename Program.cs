@@ -17,7 +17,11 @@
                 Console.WriteLine(data.stocks[i].StockName);
                 Console.WriteLine("shares: " + data.stocks[i].shares);
                 Console.WriteLine("price: " + data.stocks[i].Price);
+
+                int TotalValue = data.stocks[i].shares * data.stocks[i].Price;
+                Console.WriteLine("\nThe Total Value of {0} for {1} shares is: {2} ", data.stocks[i].StockName, data.stocks[i].shares, TotalValue);
                 Console.WriteLine("-------------------------------");
+            
             }
         }
     }
