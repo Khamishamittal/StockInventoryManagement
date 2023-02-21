@@ -1,0 +1,28 @@
+{
+  "Stocks": [
+    {
+      "StockName": "MRF",
+      "Shares": 5,
+      "Price": 800
+
+
+    },
+    {
+      "StockName": "Siemens",
+      "Shares": 7,
+      "Price": 80
+    },
+
+    {
+      "StockName": "Samsung",
+      "Shares": 8,
+      "Price": 90
+    },
+    {
+      "StockName": "HP",
+      "Shares": 6,
+      "Price": 234
+    }
+  ]
+      
+    }
